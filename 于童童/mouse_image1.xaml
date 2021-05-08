@@ -1,0 +1,160 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="mouse_image1" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="498.666666666667,846" sap2010:WorkflowViewState.IdRef="mouse_image1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="mouse_image1" sap:VirtualizedContainerService.HintSize="508.666666666667,781.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:OpenBrowser BrowserType="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="466.666666666667,543.333333333333" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="[“https://www.baidu.com/”]">
+      <ui:OpenBrowser.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,441.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'iexplore.exe  百度一下，你就知道'" sap:VirtualizedContainerService.HintSize="334,154.666666666667" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:ClickImage.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:ClickImage.CursorPosition>
+              <ui:ClickImage.Image>
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.5" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE0AAAAlCAYAAAAHrmSHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJeSURBVGhD7ZZ9jQIxEEdPCwpQgAEcIAAHKEAAAhCAAQwgAAXrABO9vIZf0pu0SzuwOf6Yl2yOfux25rWzez8pGCakOQhpDkKag5DmIKQ5CGkOQpqDkOYgpDkIaQ5CmoOQ5iCkOZiVdjqd0mq1erb+h8fjkTabTY7FwtjhcEjr9TrHyV/a9JdM05T2+32ew7XdbtPtdnuOjvPV0kieBImhJo0xRF0ulyzhfD7nNv2CZ9CH+Ov1mudJIG0PXysNETpBNWmM1xJXP39BOdzv99wWSNztds/WGF3S2B3teKsEmKs5XK2S4jQwVj6L8ilhPY0zn9/2WYqtRjn/eDz+OXlicWkEz2+SUR/JCgJToMxh91UCJC24hz7mM4/TQPA8vxTHmDZGAiXhFaxt1y1hHcWxaHnqqAsJESReShTM0W5SHrRt8iRBf+1+GJGmdyCbYCsBiIVnza3XQ5e0WinS/wqClDTdY0sR7CaU9EojRkmxmyzYOJ1i5nnFuT4EtX5kcNwZIxi93yRtTkxrHeiRphPGvJYwi8TZD0QPH5FGoLS5CB5BvFP4vbQ0klZJ9gqDkbK3vC1N7yqk2DImkSXLk7VZg6t1Ynjf8nyLPhgjosXb0pSU/RKpX9Ik1yavD0EtMWhJY4NeCQNtiN2sVn8Pb0tT0pQI4kiScSUkaVC+gJnHLtf+5ShpSdOzSJ4xe3Ef6DSW8UmY55TBR95pBENQ9CkRgtP/b2XZci+i6CcZkp/b7ZY07tV6taucjziJ4pJAL7PSgjohzUFIcxDSHIQ0ByHNQUhzENIchDQHIW2YlH4BBBLz++d6rgkAAAAASUVORK5CYII=" />
+              </ui:ClickImage.Image>
+              <ui:ClickImage.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="a4035ab6-2952-4407-9df6-bb1fa958adb0">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:ClickImage.Target>
+            </ui:ClickImage>
+            <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_DOUBLE" DisplayName="Double Click Image" sap:VirtualizedContainerService.HintSize="334,154.666666666667" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:ClickImage.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:ClickImage.CursorPosition>
+              <ui:ClickImage.Image>
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.5" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFgAAAAiCAYAAADbLB6TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIKSURBVGhD7ZWNbeMwDEa7U8bIGhkjW2SKjJExMo0P310ewCNoi0nFwkb5AKENrT8+UfbX0pTSgotpwcW04GJacDEtuJgWXEwLLqZc8P1+X06n0/J4PF6R30W54Nvt9lfw8/l8RbZRP/X/pF0ul9cs/zifz2G/bJvBjwnOgmBV/jtcr9dQsOLvwq2bQblgJdiCC+GaZpktWDG/vvrqmYfbdijB2qha9iM3+x0smTRQPHp10f8wgiWV5JVQhlEFM6f6WSRmTTBzaqwdb8cQ19/DCKZK9De6khEjwVbWCAQL9uAPgrUUZ4+HEawNK5l3pIwEi9FzsIKFxvmxFIGNH0IwV45NS7RNdo2MYInLvHK8YP0fiVM/NTiEYAm1m0a4BG6B4O80booVbOe10m2cve1esK9e8BUVQcJbFYwAhKxh1+PA/VjezfaG7V6wNqzmQTwVFpERLKI+jEUeghEWVTZxu7ddC9bGbZIenq+RFax5/CFaSQKRiqlCQXPzzMb5vVvBfJFHcpSclwNZwci0/bwYraHfav7AWYfDEMTIYwbTBFMpma+7UN9IciR47UBYE3m+IjVGsQjtc+2ZP6jvMEWwkvJSMmiMWlRFtiEwwlapmj3gLcFb7KqCSfBTqEIOh+Ss9BEcsK/yrODoULM3ccT0j1zzPy24mBZcTAsupgUX04KLacHFtOBSluUPMj/uMmIBBYUAAAAASUVORK5CYII=" />
+              </ui:ClickImage.Image>
+              <ui:ClickImage.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="db3d1f5d-8062-49f0-98fc-c8d7489288aa">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:ClickImage.Target>
+            </ui:ClickImage>
+          </Sequence>
+        </ActivityAction>
+      </ui:OpenBrowser.Body>
+    </ui:OpenBrowser>
+    <ui:HoverImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" KeyModifiers="{x:Null}" SendWindowMessages="{x:Null}" DisplayName="Hover Image 'iexplore.exe  人民网_网上的人民...'" sap:VirtualizedContainerService.HintSize="466.666666666667,106" sap2010:WorkflowViewState.IdRef="HoverImage_1">
+      <ui:HoverImage.CursorPosition>
+        <ui:CursorPosition Position="Center">
+          <ui:CursorPosition.OffsetX>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetX>
+          <ui:CursorPosition.OffsetY>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetY>
+        </ui:CursorPosition>
+      </ui:HoverImage.CursorPosition>
+      <ui:HoverImage.Image>
+        <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.5" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAA6CAYAAABcWhxdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAARXSURBVHhe7ZnLThRBFIZ5BHwFLjquICwwJBow4BJX8Aj4ABhc4Eq8wAoNBrkJIT6AwpoYcIcJ6sa4HCTiCnBmuM8Q5th/6UmKopyeYWrMmXBIvnT3qUuT83WdLpqag4MjUuSigoSjgoSjgoSjgoSjgoSjgoSjgoSjgoSjgoSjgoSjgoSjgoSjgoSjgoSjgoSjgoRTFYK+fv3mjV8GgghaWnpPT548DQbm47khp7b2CvX13Ttzz8tCEEFIak1NTTAwnz0/5CBuS+rqunNuXCHQ356zWqh4iUNy3ISzUDsWR09PjxkzP//GXOOIeYpBBRWgHEEob1zufvz4eW6eYlFBEXiikQQXJKeuru5MDNecNBdeIaBYkXGooAhOZktLy5mEFysI4xCzV4ktCCsJ56XA8+Ac9+DraiK4IHsHBhCzkw7sxDMs4F+CUOLQhzcMOHfhtrGxl+aa50FMBVVYUKGY2+b7HVTQ3+TgKcY5w8mxY7hG3I7x049zd07ffTCHC5fOUgWtrX2mZ89GaHT0BZ2cnFI+T5TN5mhv79C044hrxNE+OvqchodH6NOnL+fmCk1wQeVSrCAcXSABbaUKSibXqb//vukzNPSYNjc36fT01EjZ3/8jB9eIP3o0ZPqh//r6d+98IQkmiHdxq6sfz8TxVGN14B1ix10wDuPjdnG+mNtWqqBMZpdmZ2epu7ubEokEzczMRMlfj6Tk6egoa47JZJKmpqbp2rVE1O8uzc3N0e7urne+kAQT5AMvayQHifO1x1FIECS42BsIe0ycoHxUu7LZLC0sLFBDQyO1tbUZSZlMhvCTTqcjOVPU2nqDGhuv0uLiIuVyKHl573whKVsQkoEEhAbzFhJUiFIFgVzuhHZ2dmh5eYWam5ups7PLSMLPxMQkdXTcpqamZlpZ+RD1+2X6++YJTdmC8Nc+kuaCD5xIjK+N4YT62nhetNv388XctosIQik7Ps5SKpUy5au3t5fa29tpcPAh3bx5y3xqQjyVSpt+6O+bJzQVKXFc2nD0tQMuRwMDD7ztoBxBeKfxvykQixMEkHSsjK2tLRofHzerKJG4Ho3tiq5f0fb2tmn/X3JAcEFIChIC8HUASXM3DiwnLmm2DC55GMNjGf4K4cIbDpzH3Ys5PDw2Ozbs0CYnp6m+viEqda9pY2PDxNHuG1cpKrKCsGNDcvgLNODdHCcTCYvb2dmCcI6yaYsBiDO4Rn/+ksDz8/3suauFigiyQZJsUQxikMhlyIctqBi4/0XeQVKpiCAkCE8xVgxvFgCu3ZUFsKrQ3y2FIQS9ffvOxHBvu2+1EEQQEoInlD+12CAOKW454zLIZYmxNxalCmJ4nA1E+fpKJ9gKghysBKwOJMgtM4VAmYMYyLJFskC7bzHwVwmAlVOtckDF30FKeagg4agg4agg4agg4agg4agg4agg4agg4agg4agg4agg4agg4agg4agg4agg4agg4agg4agg0RzRb4/O+6tzUsihAAAAAElFTkSuQmCC" />
+      </ui:HoverImage.Image>
+      <ui:HoverImage.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b67f2ece-59d5-4339-83ea-7a3e50f8b58f" Selector="&lt;html title='人民网_网上的人民日报' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:HoverImage.Target>
+    </ui:HoverImage>
+  </Sequence>
+</Activity>
